@@ -1,0 +1,38 @@
+{
+  "name": "mackelarapi",
+  "version": "1.2.0",
+  "description": "Mackelar generic API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Firman Hidayat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "bookshelf": "^0.10.2",
+    "bookshelf-uuid": "^1.0.0",
+    "connect-flash": "latest",
+    "cookie-parser": "latest",
+    "debug": "latest",
+    "ejs": "*",
+    "express": "latest",
+    "express-handlebars": "latest",
+    "express-messages": "latest",
+    "express-myconnection": "latest",
+    "express-session": "latest",
+    "generic-pool": "^2.4.2",
+    "knex": "^0.12.2",
+    "morgan": "latest",
+    "mysql": "latest",
+    "passport": "latest",
+    "passport-facebook": "latest",
+    "passport-google": "latest",
+    "passport-http": "latest",
+    "passport-local": "latest",
+    "passport-twitter": "latest",
+    "pug": "latest",
+    "static-favicon": "~1.0.0",
+    "moment-timezone": "^0.5.5"
+  }
+}

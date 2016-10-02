@@ -1,0 +1,14 @@
+extends index.pug
+
+block content
+  form.form-horizontal(method="post", id="loginForm")
+    .control-group
+     label.control-label Username
+      .controls
+        input(id="username", type="text", name="User", placeholder="Enter your username")
+    .control-group
+     label.control-label Password
+      .controls
+       input(id="password", type="password", name="Password")
+       input.btn.btn-warning(type="submit", value="Log In")
+  .footer
